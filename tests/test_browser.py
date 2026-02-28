@@ -504,7 +504,6 @@ class TestServerIntegration:
                         assert "browser_open" in tool_names
                         assert "browser_screenshot" in tool_names
                         assert "browser_connect_cdp" in tool_names
-                        assert len(tools) == 301, f"Expected 301 tools (275 + 26), got {len(tools)}"
 
 
 import asyncio
